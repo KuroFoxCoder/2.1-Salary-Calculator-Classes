@@ -31,7 +31,7 @@ public class IncomeTaxMain {
         // FIXME: Call a setter method in the TaxTableClass that supplies new
         //        tables for the class to work with. The method should be called
         //        with: table.setTables(salary, taxTable);
-        table.setTables(salary, taxTable);
+        table.setTables(salary, taxTable); //Call method to set new tables
         // Get the first annual salary to process
         annualSalary = getInteger(scnr, PROMPT_SALARY);
 
